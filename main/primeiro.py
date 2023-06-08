@@ -3,7 +3,7 @@
 # usando palavras reservadas como this,
 # em python é necessário
 # utilizar palavras especiais para esta referência.
-# Elas são o __name__ e __file__ por exemplo
+# Elas são o __name__ e __file__ por exemplo.
 
 print("Begin", __name__)
 print("Início da primeira função:")
