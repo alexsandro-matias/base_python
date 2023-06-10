@@ -44,7 +44,9 @@ print("End", __name__)
 # no corpo do módulo (funções globais).
 # Somente no final da execução das funções é que retorna
 # o controle da execução para o módulo segundo.py.
-# Isso causa um efeito indesejado que é executar funções que não desejadas, ou seja, funções locais,
+# Isso causa um efeito indesejado que é executar funções que não desejadas,
+# ou seja, funções locais,
 # já que somente as funções locais deveria ser invocadas no módulo segundo.
 # Para evitar isso, basta no primeiro módulo e deixar um condicional para
-# que somente se o módulo primeiro for o entrypoint é que ele será executado
+# que somente se o módulo primeiro for o entrypoint
+# o é que ele será executado como biblioteca.
