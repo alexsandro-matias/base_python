@@ -9,8 +9,6 @@ pessoas = (primeira_pessoa, segunda_pessoa)
 # def descricao(texto):
 #     print(nome, sobrenome, ano_nascimento)
 #
-
-#
 # Traceback (most recent call last):
 #   File "C:\Users\almei\github-repositorios\base_python\main\.idea\atribuicoes.py", line 11, in <module>
 #     descricao(nome_completo)
@@ -37,7 +35,8 @@ pessoas = (primeira_pessoa, segunda_pessoa)
 #     print(nome, sobrenome, ano_nascimento)
 
 # No exemplo acima, O interpretador cria um "match" com a ordem da tupla com a ordem dos termos.
-# Agora supor que queiramos apenas o nome e sobrenome vai subir um erro dizendo que há mais argumentos para desempacotar:
+# Agora supor que queiramos apenas o nome e sobrenome vai subir um
+# erro dizendo que há mais argumentos para desempacotar:
 
 
 # def descricao(texto):
@@ -98,5 +97,5 @@ def descricao(texto):
 #     print(pessoa)
 
 # Utilizando com desempacotamento (unpacking)
-# for nome, sobrenome, *_, ano in pessoas:
-#     print(nome, sobrenome, _, ano)
+for nome, sobrenome, *_, ano in pessoas:
+    print(nome, sobrenome, _, ano)
