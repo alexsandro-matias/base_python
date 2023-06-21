@@ -15,14 +15,14 @@
 
 print("Begin", __name__)
 # Adicionando o módulo primeiro
-import primeiro
+import funcoes_inicio
 
 print("Início da segunda função:")
 
 
 def segunda_funcao():
     print("Dentro da segunda função.")
-    primeiro.primeira_funcao()
+    funcoes_inicio.primeira_funcao()
 
 
 print("Foram da segunda.")
@@ -43,7 +43,7 @@ print("End", __name__)
 # mas também executa todos as funções
 # no corpo do módulo (funções globais).
 # Somente no final da execução das funções é que retorna
-# o controle da execução para o módulo segundo.py.
+# o controle da execução para o módulo testando_importe.py.
 # Isso causa um efeito indesejado que é executar funções que não desejadas,
 # ou seja, funções locais,
 # já que somente as funções locais deveria ser invocadas no módulo segundo.

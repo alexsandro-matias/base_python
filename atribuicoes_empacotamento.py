@@ -10,9 +10,9 @@ pessoas = (primeira_pessoa, segunda_pessoa)
 #     print(nome, sobrenome, ano_nascimento)
 #
 # Traceback (most recent call last):
-#   File "C:\Users\almei\github-repositorios\base_python\main\.idea\atribuicoes.py", line 11, in <module>
+#   File "C:\Users\almei\github-repositorios\base_python\main\.idea\atribuicoes_empacotamento.py", line 11, in <module>
 #     descricao(nome_completo)
-#   File "C:\Users\almei\github-repositorios\base_python\main\.idea\atribuicoes.py", line 7, in descricao
+#   File "C:\Users\almei\github-repositorios\base_python\main\.idea\atribuicoes_empacotamento.py", line 7, in descricao
 #     print(nome, sobrenome, ano_nascimento)
 #           ^^^^
 # NameError: name 'nome' is not defined. Did you mean: 'None'?
@@ -42,7 +42,8 @@ pessoas = (primeira_pessoa, segunda_pessoa)
 # def descricao(texto):
 #     nome, sobrenome = texto
 #     print(nome, sobrenome, ano_nascimento)
-# Erro:   File "C:\Users\almei\github-repositorios\base_python\main\.idea\atribuicoes.py", line 39, in descricao
+# Erro:   File "C:\Users\almei\github-repositorios\base_python\main\.idea\atribuicoes_empacotamento.py",
+# line 39, in descricao
 #     nome, sobrenome = texto
 #     ^^^^^^^^^^^^^^^
 # ValueError: too many values to unpack (expected 2)
@@ -84,6 +85,7 @@ pessoas = (primeira_pessoa, segunda_pessoa)
 def descricao(texto):
     *nome, _, ano = texto
     print(nome, _, ano)
+
 
 # Como nome está com "*", esta variável que será guardada numa lista até encontrar alguma variável
 # explicitada para depois ser atribuída - ['Alexsandro', 'Matias', 19] 10 84
