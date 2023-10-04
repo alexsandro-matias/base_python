@@ -1,2 +1,2 @@
 # python_base
-Aprendendo os fundamentos da linguagem Python
+Neste repositório serão abordados os principais assuntos fundamentais necessários para o aprendizado sólido da linguagem Python.

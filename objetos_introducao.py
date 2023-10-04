@@ -25,11 +25,24 @@
 # print(funcionarios is pessoas)
 
 # A forma de declaração de classes em python é através da palavra reservada class.
-class Car: pass
-# A partir deste momento, já existe em memória um objeto do tipo class. Isso fica evidente da seguinte forma:
-print(Car)
-# Em outras palavras a palavra Car representa uma variável sendo executada em runtime em memória.
-# Para instanciar uma classe, basta digitar o nome da classe e depois parentesis - Car()
+# class Car: pass
+# # A partir deste momento, já existe em memória um objeto do tipo class. Isso fica evidente da seguinte forma:
+# print(Car)
+# # Em outras palavras a palavra Car representa uma variável sendo executada em runtime em memória.
+# # Para instanciar uma classe, basta digitar o nome da classe e depois parentesis - Car()
+#
+# print(Car())
+# # saída <__main__.Car object at 0x0000027438530950> - que será a identidade da variável do tupo car.
 
-print(Car())
-# saída <__main__.Car object at 0x0000027438530950> - que será a identidade da variável do tupo car.
+
+from math import sqrt
+
+a = 2
+b = 4
+c = 8
+
+variavel = a ** 2 + 3 / 4 * b * 987 * (c - ((10 ** -9) / sqrt((0.5 ** 3))))
+
+variavel = variavel % 23691
+
+print(variavel)

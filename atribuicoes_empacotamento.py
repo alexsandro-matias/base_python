@@ -6,8 +6,8 @@ segunda_pessoa = 'Maria', 'Cícera', 19, 11, 77
 pessoas = (primeira_pessoa, segunda_pessoa)
 
 
-# def descricao(texto):
-#     print(nome, sobrenome, ano_nascimento)
+def descricao(texto):
+    print(nome, sobrenome, ano_nascimento)
 #
 # Traceback (most recent call last):
 #   File "C:\Users\almei\github-repositorios\base_python\main\.idea\atribuicoes_empacotamento.py", line 11, in <module>
